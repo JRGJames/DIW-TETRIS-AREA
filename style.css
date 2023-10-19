@@ -7,6 +7,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1.5fr repeat(2, 1fr) 2fr 1fr;
+  grid-template-areas: 
+  "bloque1 bloque3 bloque3"
+  "bloque2 bloque2 bloque4"
+  "bloque5 bloque5 bloque5"
+  "bloque6 bloque7 bloque8"
+  "bloque9 bloque9 bloque9";
   top: 50%;
 }
 
@@ -15,39 +21,39 @@
 }
 
 .bloque1 {
-  grid-area: 1 / 1 / 2 / 2;
+  grid-area: bloque1;
 }
 
 .bloque2 {
-  grid-area: 2 / 1 / 3 / 3;
+  grid-area: bloque2;
 }
 
 .bloque3 {
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: bloque3;
 }
 
 .bloque4 {
-  grid-area: 2 / 3 / 3/ 4;
+  grid-area: bloque4;
 }
 
 .bloque5 {
-  grid-area: 3 / 1 / 4 / 4;
+  grid-area: bloque5;
 }
 
 .bloque6 {
-  grid-area: 4 / 1 / 5 / 2;
+  grid-area: bloque6;
 }
 
 .bloque7 {
-  grid-area: 4 / 2 / 5 / 3;
+  grid-area: bloque7;
 }
 
 .bloque8 {
-  grid-area: 4 / 3 / 5 / 4;
+  grid-area: bloque8;
 }
 
 .bloque9 {
-  grid-area: 5 / 1 / 6 / 4;
+  grid-area: bloque9;
 }
 
 .amarilla {
